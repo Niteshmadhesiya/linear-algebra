@@ -4,7 +4,7 @@ print("matrix m is=",m)
 a=np.linalg.det(m)
 print("determinant is",a)
 if a<=0:
-    min=np.linalg.inv(m)
+    minv=np.linalg.inv(m)
     print("inverse of matrix is",minv)
 else:
         print("matrix is not invertible")
